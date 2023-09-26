@@ -179,7 +179,7 @@ class ProductItemDetails extends Component {
         <ul className="similar-products-list">
           {similarProductsData.map(eachSimilarProduct => (
             <SimilarProductItem
-              ProductDetails={eachSimilarProduct}
+              ProductItemDetails={eachSimilarProduct}
               key={eachSimilarProduct.id}
             />
           ))}
